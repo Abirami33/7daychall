@@ -5,10 +5,9 @@ import java.sql.*;
 public class Hello
 {
 	
-    public static PreparedStatement pstmt1 = null;
-    public static PreparedStatement pstmt2 = null;
-    public static Connection conn = null;
-    public static Statement stmt = null;
+   
+    static Connection conn = null;
+    static Statement stmt = null;
     
     
     
